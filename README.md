@@ -1,21 +1,22 @@
 
 # Postcss-Family
-PostCSS-Family is a partial port of [Family.scss](https://lukyvj.github.io/family.scss/). This port is is missing the child-index mixin. 
+PostCSS-Family is a partial port of [Family.scss](https://lukyvj.github.io/family.scss/).
 
 > Family is a set of **26** smart Postcss functions which will help you to manage
 > the style of `:nth-child`'ified elements, in an easy and classy way.
 > *- Family.scss*
 
-:warning: requires postcsss nesting plugin called after postcss-family
 
 ## Usage
 
 You can call the family command using the at rule `@fam` followed by the appropriate keyword and parameter (if applicable).
 
+:warning: requires a postcsss nesting plugin called after postcss-family
+
 ```css
 /* input.css */
 ul li {
-  background: blue;
+  background: red;
 
   @fam first(3) {
     background: blue;
@@ -26,7 +27,7 @@ ul li {
 ```css
 /* output.css */
 ul li {
-  background: blue;
+  background: red;
 }
 ul li:nth-child(-n + 3) {
   background: blue;
@@ -74,3 +75,4 @@ ul li:nth-child(-n + 3) {
 - unique
 - only
 
+This port is is missing the child-index mixin.
