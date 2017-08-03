@@ -1,7 +1,7 @@
 import postcss from 'postcss';
 import test from 'ava';
 
-var plugin = require('../lib/family.js');
+var plugin = require('../index.js');
 function run(t, input, output, opts = {}) {
   return postcss([plugin(opts), require('postcss-nested')]).process(input)
     .then(result => {
