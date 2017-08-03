@@ -1,0 +1,29 @@
+{
+  "name": "family.pcss",
+  "version": "1.0.0",
+  "description": "PostCSS port of Family.scss",
+  "main": "lib/family.js",
+  "scripts": {
+    "test": "ava \"test/*.test.js\" -v -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpeutz/family.pcss.git"
+  },
+  "keywords": [
+    "family.scss",
+    "PostCSS",
+    "nth-child"
+  ],
+  "author": "Mike Peutz <mpeutz@transim.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpeutz/family.pcss/issues"
+  },
+  "homepage": "https://github.com/mpeutz/family.pcss#readme",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "postcss": "^6.0.8",
+    "postcss-nested": "^2.1.0"
+  }
+}
