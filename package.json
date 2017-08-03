@@ -4,7 +4,8 @@
   "description": "PostCSS port of Family.scss",
   "main": "index.js",
   "scripts": {
-    "test": "ava \"test/*.test.js\" -v -s"
+    "test": "ava \"test/*.test.js\" -v -s",
+    "cover": "node_modules/.bin/ava --no-cache -t test/*"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   "homepage": "https://github.com/mpeutz/postcss-family#readme",
   "devDependencies": {
     "ava": "^0.21.0",
+    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5",
     "postcss": "^6.0.8",
     "postcss-nested": "^2.1.0"
   },
