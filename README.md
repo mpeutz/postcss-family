@@ -2,7 +2,7 @@
 # Postcss-Family
 PostCSS-Family is a partial port of [Family.scss](https://lukyvj.github.io/family.scss/). 
 
-> Family is a set of **25** smart Postcss functions which will help you to manage
+> Family is a set of **26** smart Postcss functions which will help you to manage
 > the style of `:nth-child`'ified elements, in an easy and classy way.
 > *- Family.scss*
 
