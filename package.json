@@ -25,5 +25,9 @@
     "ava": "^0.21.0",
     "postcss": "^6.0.8",
     "postcss-nested": "^2.1.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
