@@ -1,7 +1,8 @@
 
-## Postcss-Family  - requires postcsss nesting
----
+# Postcss-Family
 PostCSS-Family is a port of Family.scss. Family is a set of **25** smart Postcss functions which will help you to manage the style of `:nth-child`'ified elements, in an easy and classy way.
+
+> :warning: requires postcsss nesting plugin called after postcss-family
 
 *Available*
 
