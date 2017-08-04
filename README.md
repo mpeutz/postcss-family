@@ -78,4 +78,7 @@ ul li:nth-child(-n + 3) {
 - unique
 - only
 
-This port is is missing the child-index mixin.
+function documentation:
+  [family.scss](http://lukyvj.github.io/family.scss/)
+This port is missing the child-index mixin.
+
