@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ava \"test/*.test.js\" -v -s",
-    "cover": "node_modules/.bin/ava --no-cache -t test/familypcss.test.js"
+    "cover": "istanbul cover node_modules/.bin/ava --no-cache -t test/familypcss.test.js"
   },
   "repository": {
     "type": "git",
