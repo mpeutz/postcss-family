@@ -1,7 +1,7 @@
 
 # Postcss-Family
 
-[![Build Status](https://travis-ci.org/mpeutz/postcss-family.svg?branch=master)](https://travis-ci.org/mpeutz/postcss-family)   [![Coverage Status](https://coveralls.io/repos/github/mpeutz/postcss-family/badge.svg?branch=master)](https://coveralls.io/github/mpeutz/postcss-family?branch=master)
+[![Build Status](https://travis-ci.org/mpeutz/postcss-family.svg?branch=master)](https://travis-ci.org/mpeutz/postcss-family)
 
 PostCSS-Family is a partial port of [Family.scss](https://lukyvj.github.io/family.scss/).
 
